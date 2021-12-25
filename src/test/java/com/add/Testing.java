@@ -10,5 +10,6 @@ public static void main(String[] args) {
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.youtube.com/watch?v=SJ5gFysRsAM");
+	System.out.println("Perf");
 }
 }
